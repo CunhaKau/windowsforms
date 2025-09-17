@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastrodeClientes));
             this.panelTopo = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
@@ -44,18 +47,27 @@
             this.lblNomeCompleto = new System.Windows.Forms.Label();
             this.tbConsulta = new System.Windows.Forms.TabPage();
             this.lstCliente = new System.Windows.Forms.ListView();
+<<<<<<< HEAD
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnNovoCliente = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.btnExcluirCliente = new System.Windows.Forms.Button();
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             this.panelTopo.SuspendLayout();
             this.tbControl.SuspendLayout();
             this.tbCadastro.SuspendLayout();
             this.tbConsulta.SuspendLayout();
+<<<<<<< HEAD
             this.contextMenuStrip1.SuspendLayout();
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             this.SuspendLayout();
             // 
             // panelTopo
@@ -192,7 +204,10 @@
             // 
             // lstCliente
             // 
+<<<<<<< HEAD
             this.lstCliente.ContextMenuStrip = this.contextMenuStrip1;
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             this.lstCliente.HideSelection = false;
             this.lstCliente.Location = new System.Drawing.Point(16, 71);
             this.lstCliente.MultiSelect = false;
@@ -202,6 +217,7 @@
             this.lstCliente.UseCompatibleStateImageBehavior = false;
             this.lstCliente.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.lstCliente_ItemSelectionChanged);
             // 
+<<<<<<< HEAD
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -216,6 +232,8 @@
             this.toolStripMenuItem1.Text = "Excluir Cliente";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             // btnPesquisar
             // 
             this.btnPesquisar.BackColor = System.Drawing.Color.DarkMagenta;
@@ -263,6 +281,7 @@
             this.btnNovoCliente.UseVisualStyleBackColor = false;
             this.btnNovoCliente.Click += new System.EventHandler(this.btnNovoCliente_Click);
             // 
+<<<<<<< HEAD
             // btnExcluirCliente
             // 
             this.btnExcluirCliente.BackColor = System.Drawing.Color.Red;
@@ -277,12 +296,17 @@
             this.btnExcluirCliente.Visible = false;
             this.btnExcluirCliente.Click += new System.EventHandler(this.btnExcluirCliente_Click);
             // 
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             // frmCadastrodeClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
             this.Controls.Add(this.btnExcluirCliente);
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             this.Controls.Add(this.btnNovoCliente);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.tbControl);
@@ -296,7 +320,10 @@
             this.tbCadastro.PerformLayout();
             this.tbConsulta.ResumeLayout(false);
             this.tbConsulta.PerformLayout();
+<<<<<<< HEAD
             this.contextMenuStrip1.ResumeLayout(false);
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             this.ResumeLayout(false);
 
         }
@@ -321,9 +348,12 @@
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.ListView lstCliente;
         private System.Windows.Forms.Button btnNovoCliente;
+<<<<<<< HEAD
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.Button btnExcluirCliente;
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
     }
 }
 

@@ -7,7 +7,11 @@
     <ProjectGuid>{6A51A7A9-C72A-4B10-9058-19BC51FD5EE7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>crud</RootNamespace>
+<<<<<<< HEAD
     <AssemblyName>crudNovo</AssemblyName>
+=======
+    <AssemblyName>crud</AssemblyName>
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -217,8 +217,16 @@ namespace crud
                 codigo_cliente = null;
 
 
+<<<<<<< HEAD
 
                 limpar_formulario();
+=======
+                //Limpa os campos após o sucesso
+                txtNomeCompleto.Text = String.Empty;
+                txtNomeSocial.Text = " ";
+                txtEmail.Text = " ";
+                txtCPF.Text = " ";
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
 
                 //Regarrega os clientes no ListView
                 carregar_cliente();
@@ -289,13 +297,17 @@ namespace crud
                 txtNomeSocial.Text = item.SubItems[2].Text;
                 txtEmail.Text = item.SubItems[3].Text;
                 txtCPF.Text = item.SubItems[4].Text;
+<<<<<<< HEAD
 
                 btnExcluirCliente.Visible = true;
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             }
         }
 
         private void btnNovoCliente_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             limpar_formulario();
 
         }
@@ -377,6 +389,8 @@ namespace crud
 
         private void limpar_formulario()
         {
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
             codigo_cliente = null;
             txtNomeCompleto.Text = String.Empty;
             txtNomeSocial.Text = " ";
@@ -385,7 +399,10 @@ namespace crud
 
             txtNomeCompleto.Focus();
 
+<<<<<<< HEAD
             btnExcluirCliente.Visible = false;
+=======
+>>>>>>> 679f4d2894b475b0350c3b8b4cd4996ba7afffc4
         }
     }
 }
